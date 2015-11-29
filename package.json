@@ -1,0 +1,35 @@
+{
+  "name": "door-sensor",
+  "version": "1.0.0",
+  "description": "Door sensor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:frantello/door-sensor.git"
+  },
+  "keywords": [
+    "door",
+    "sensor",
+    "intel",
+    "galileo",
+    "arduino",
+    "node",
+    "johnny-five"
+  ],
+  "author": "José Francisco Tello Ropero <jfrantello@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/frantello/door-sensor/issues"
+  },
+  "homepage": "https://github.com/frantello/door-sensor",
+  "dependencies": {
+    "galileo-io": "0.8.18",
+    "johnny-five": "0.9.11"
+  }
+}
